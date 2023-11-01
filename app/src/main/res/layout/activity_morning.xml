@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Morning">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textColor="#000"
+        android:text="Morning" />
+
+    <ImageView
+        android:id="@+id/imageMorning"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginVertical="12dp"
+        android:src="@drawable/three"/>
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="12dp"
+        android:progress="50"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_bg"
+            android:src="@drawable/baseline_skip_previous_24"/>
+
+
+        <ImageButton
+            android:id="@+id/play_btnMorning2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="12dp"
+            android:background="@drawable/btn_bg"
+            android:src="@drawable/baseline_play_arrow_24"/>
+
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_bg"
+            android:src="@drawable/baseline_skip_next_24"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
